@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: service-producer
+
+server:
+  port: 8811
+
+eureka:
+  instance:
+    # 心跳间隔
+    lease-renewal-interval-in-seconds: 3
+    # 服务失效时间： 如果多久没有收到请求，则可以删除服务
+    lease-expiration-duration-in-seconds: 7
+    status-page-url-path: /actuator/info
+    health-check-url-path: /actuator/health
+    # docker 部署开启
+    prefer-ip-address: true
+  client:
+    # 关闭eureka client
+    # enabled: false
+    # 注册自身到eureka服务器
+    register-with-eureka: true
+    # 表示是否从eureka服务器获取注册信息
+    fetch-registry: true
+    # 客户端从Eureka Server集群里更新Eureka Server信息的频率
+    eureka-service-url-poll-interval-seconds: 60
+    # 定义从注册中心获取注册服务的信息
+    registry-fetch-interval-seconds: 5
+    # 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka/

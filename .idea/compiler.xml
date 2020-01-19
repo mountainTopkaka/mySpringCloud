@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service_producer" />
+        <module name="service_consumer_ribbon" />
+        <module name="service_producer_b" />
+        <module name="service_producer_a" />
+        <module name="eureka_server" />
+        <module name="service_consumer_feign" />
+        <module name="base_util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base_util" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="service_consumer_feign" target="1.8" />
+      <module name="service_consumer_ribbon" target="1.8" />
+      <module name="service_producer" target="1.8" />
+      <module name="service_producer_a" target="1.8" />
+      <module name="service_producer_b" target="1.8" />
+      <module name="spring_cloud_parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

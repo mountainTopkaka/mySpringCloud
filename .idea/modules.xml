@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base_util/base_util.iml" filepath="$PROJECT_DIR$/base_util/base_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_consumer_feign/service_consumer_feign.iml" filepath="$PROJECT_DIR$/service_consumer_feign/service_consumer_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_consumer_ribbon/service_consumer_ribbon.iml" filepath="$PROJECT_DIR$/service_consumer_ribbon/service_consumer_ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_producer/service_producer.iml" filepath="$PROJECT_DIR$/service_producer/service_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_producer_a/service_producer_a.iml" filepath="$PROJECT_DIR$/service_producer_a/service_producer_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_producer_b/service_producer_b.iml" filepath="$PROJECT_DIR$/service_producer_b/service_producer_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_parent.iml" filepath="$PROJECT_DIR$/spring_cloud_parent.iml" />
+    </modules>
+  </component>
+</project>
